@@ -8,8 +8,8 @@ export class Todo extends Component {
 
     render() {
         return ( 
-            <div>
-                <li>Texto: {this.props.text}</li>
+            <div >
+                <li>{this.props.text}</li>
                 <li>Prioridad: {this.props.priority}</li> 
                 <li>Fecha: {this.props.dueDate}</li>
             </div> 
